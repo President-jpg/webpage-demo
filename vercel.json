@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/musics/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "audio/mpeg"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
